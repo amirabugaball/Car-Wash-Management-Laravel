@@ -1,10 +1,2 @@
-# New SE305 MVC PHP Framework
+Car Wash Management System MVC By Youssef Khaled , Amir Abu Gabal , Ahmed Tarek , Abdallah Amr
 
-This document MVC for SE305 course at MIU.
-
-## Description
-
-Design and implement an **PHP MVC application**.  
-
-## Useful Links
-https://getbootstrap.com/docs/5.0/examples/

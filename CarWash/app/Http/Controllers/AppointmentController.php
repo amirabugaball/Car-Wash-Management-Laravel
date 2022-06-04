@@ -15,7 +15,7 @@ class AppointmentController extends Controller
         return view('appointments')->with('cars', $cars);
     }
 
-    public function submitAppt(Request $request)
+    public function submitAppts(Request $request)
     {
         $date = request('date');
         $type = request('type');

@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 
+
 class ReserveController extends Controller
 {
     public function loadReservationPage()

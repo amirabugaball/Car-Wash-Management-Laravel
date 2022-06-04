@@ -67,6 +67,7 @@ class ReserveController extends Controller
         $invType = request('type');
         $invPrice = request('price');
 
+        
         view()->share('username', $username);
         view()->share('invType', $invType);
         view()->share('invID', $invID);

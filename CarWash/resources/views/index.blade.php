@@ -55,12 +55,13 @@
                         <li><a href="/logout">Logout</a></li>
                     @endif
                 @else
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/aboutus">About Us</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/#portfolio">Gallery</a></li>
-                    <li><a href="/#price">Price</a></li>
-                    <li><a href="/#contact">Contact</a></li>
+                    <li><a href="#body">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Gallery</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="/login">Login</a></li>
                     <li><a href="/signup">Signup</a></li>
                 @endif
@@ -77,11 +78,11 @@
     <div class="intro-content">
         <h2><span>We Care</span><br>About Your Car</h2>
         <div>
-            <a href="/signup" class="btn-get-started scrollto">Book your wash NOW!</a>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
     </div>
     <div id="intro-carousel" class="owl-carousel">
-        <div class="item" style="background-image: url('img/intro-carousel/1.jpeg');"></div>
+        <div class="item" style="background-image: url('img/intro-carousel/1.jpg');"></div>
         <div class="item" style="background-image: url('img/intro-carousel/2.jpg');"></div>
         <div class="item" style="background-image: url('img/intro-carousel/3.jpg');"></div>
     </div>
@@ -135,9 +136,9 @@
         <div class="container">
             <div class="section-header">
                 <h2>Our Services</h2>
-                <center>
-                <h6>Wash is our speciality.</h6>
-                <center>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culpa esse aute nulla ipsum velit
+                    export irure minim illum fore</p>
             </div>
 
             <div class="row">
@@ -145,8 +146,9 @@
                 <div class="col-lg-4">
                     <div class="box wow fadeInLeft">
                         <div class="icon"><i class="fas fa-car-alt"></i></div>
-                        <h4 class="title"><a href="">Interior Wash</a></h4>
-                        <p class="description">For internal wash we use high quality detergents that clean, protetct & polish the dashboard and the car interior while also protecting it against dust and sun effect as this technology is like a dust buster.</p>
+                        <h4 class="title"><a href="">Car Wash</a></h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                     </div>
                 </div>
 
@@ -154,39 +156,44 @@
                     <div class="box wow fadeInRight">
                         <div class="icon"><i class="fas fa-allergies"></i></div>
                         <h4 class="title"><a href="">Car Servicing</a></h4>
-                        <p class="description">A car service is a health check with routine maintenance for your vehicle which assesses everything from your engine's fluid levels to the general wear and tear of your car.</p>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="box wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="icon"><i class="fas fa-car-side"></i></div>
-                        <h4 class="title"><a href="">Jet Machine</a></h4>
-                        <p class="description">This is an external wash that uses hot water using a high ressure jet, high quality detergent & shining long lasting wax. This is type of wash protects the car paint from fading that could occur due to enviromental effects such as strong sunlight.</p>
+                        <h4 class="title"><a href="">Car Checkup</a></h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="box wow fadeInRight" data-wow-delay="0.2s">
                         <div class="icon"><i class="fas fa-tachometer-alt"></i></div>
-                        <h4 class="title"><a href="">Motor wash</a></h4>
-                        <p class="description">A clean engine compartment makes a used car look newer and better maintained. Our shop performs engine even runs a little cooler because removing the gunk formed to run cooler.</p>
+                        <h4 class="title"><a href="">Alignment</a></h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="box wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="icon"><i class="fas fa-paper-plane"></i></div>
-                        <h4 class="title"><a href="">Rollover Machine</a></h4>
-                        <p class="description">Say Goodbye to your worries! If you're looking for a quick wash with high quality then Wash Rollover Machine is yoour answer. It takes only 6 minutes to be performed. his is an external wash that uses high quality detergent and shining wax with long lasting effect.</p>
+                        <h4 class="title"><a href="">Painting</a></h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="box wow fadeInRight" data-wow-delay="0.2s">
                         <div class="icon"><i class="fas fa-car-crash"></i></div>
-                        <h4 class="title"><a href="">Rinseless Car Wash</a></h4>
-                        <p class="description">A rinseless car wassh is another kit method that eliminates the final hosing off, saving time water, and cheical usage. Optimmum No Rinse Wash and Shine comes highly rated. That's it.</p>
+                        <h4 class="title"><a href="">Modifiying</a></h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat culpa esse aute nulla.</p>
                     </div>
                 </div>
             </div>
@@ -203,7 +210,9 @@
         <div class="container">
             <div class="section-header">
                 <h2>Gallery</h2>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt fugiat culpa esse aute nulla. nulla duis fugiat culpa esse aute nulla ipsum velit export
+                    irure minim illum fore</p>
             </div>
         </div>
 
@@ -302,6 +311,73 @@
 
         </div>
     </section><!-- #portfolio -->
+
+    <!--==========================
+      Testimonials Section
+    ============================-->
+    <section id="testimonials" class="wow fadeInUp">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimonials</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt fugiat culpa esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure
+                    minim illum fore</p>
+            </div>
+            <div class="owl-carousel testimonials-carousel">
+
+                <div class="testimonial-item">
+                    <p>Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa
+                        esse aute nulla ipsum velit export irure minim illum fore
+
+                    </p>
+                    <h3>Mrio James</h3>
+                    <h4>CEO &amp; Founder</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa
+                        esse aute nulla ipsum velit export irure minim illum fore
+
+                    </p>
+                    <h3>Finton Gofnes</h3>
+                    <h4>CTO</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa
+                        esse aute nulla ipsum velit export irure minim illum fore
+
+                    </p>
+                    <h3>Marcus Kell</h3>
+                    <h4>Marketing</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa
+                        esse aute nulla ipsum velit export irure minim illum fore
+
+                    </p>
+                    <h3>Williams Belly</h3>
+                    <h4>Accounts</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        Dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. duis fugiat culpa
+                        esse aute nulla ipsum velit export irure minim illum fore
+
+                    </p>
+                    <h3>Larry Hanson</h3>
+                    <h4>Investor</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- #testimonials -->
 
     <!--==========================
       Call To Action Section
@@ -406,6 +482,106 @@
 
         </div>
     </section>
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="clients" class="wow fadeInUp">
+        <div class="container">
+            <div class="section-header">
+                <h2>Clients</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam,
+                    incidunt fugiat culpa esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure
+                    minim illum fore</p>
+            </div>
+
+            <div class="owl-carousel clients-carousel">
+                <img src="img/clients/client-1.png" alt="">
+                <img src="img/clients/client-2.png" alt="">
+                <img src="img/clients/client-3.png" alt="">
+                <img src="img/clients/client-4.png" alt="">
+                <img src="img/clients/client-5.png" alt="">
+                <img src="img/clients/client-6.png" alt="">
+            </div>
+
+        </div>
+    </section><!-- #clients -->
+    <!--==========================
+      Our Team Section
+    ============================-->
+    <section id="team" class="wow fadeInUp">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Team</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="img/team1.jpg" alt=""></div>
+                        <div class="details">
+                            <h4>James Smith</h4>
+                            <span>Chief Executive Officer</span>
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="img/team2.jpg" alt=""></div>
+                        <div class="details">
+                            <h4>Michell Kellon</h4>
+                            <span>Technical Manager</span>
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="img/team3.jpg" alt=""></div>
+                        <div class="details">
+                            <h4>French Lincon</h4>
+                            <span>Financial Manager</span>
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <div class="pic"><img src="img/team4.jpg" alt=""></div>
+                        <div class="details">
+                            <h4>Amanda Jepson</h4>
+                            <span>Accountant</span>
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- #team -->
+
     <!--==========================
       Contact Section
     ============================-->

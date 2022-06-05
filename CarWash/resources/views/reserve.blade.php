@@ -95,16 +95,6 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <select name="type" class="form-control" id="myselect">
-                                        <option disabled value="0" selected>Select wash type</option>
-                                        @foreach($types as $type)
-                                            <option value="{{$type->id}}">{{$type->wash}}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                            </div>
                             <div class="form-group">
                                 <select name="date" class="form-control" id="secondselect">
                                     <option disabled value="0" selected>Select appointment date</option>

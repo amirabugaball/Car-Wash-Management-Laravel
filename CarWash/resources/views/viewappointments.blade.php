@@ -57,12 +57,13 @@
                         <li><a href="/logout">Logout</a></li>
                     @endif
                 @else
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/aboutus">About Us</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/#portfolio">Gallery</a></li>
-                    <li><a href="/#price">Price</a></li>
-                    <li><a href="/#contact">Contact</a></li>
+                    <li><a href="#body">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Gallery</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="/login">Login</a></li>
                     <li><a href="/signup">Signup</a></li>
                 @endif

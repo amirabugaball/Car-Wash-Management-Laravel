@@ -46,10 +46,3 @@ Route::get('/viewreservations', [ReserveController::class, 'loadReservations']);
 Route::post('/deletereservation', [ReserveController::class, 'deleteReservation']);
 Route::post('/printbill', [ReserveController::class, 'printAdminBill']);
 
-Route:: get ('/aboutus', function () {
-    return view('aboutus');
- });
-Route:: get ('/services', function () {
-    return view('services');
- });
- 
